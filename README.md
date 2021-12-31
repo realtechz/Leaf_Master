@@ -5,7 +5,9 @@
 * The classifier is trained on the dataset found at
    * https://www.kaggle.com/emmarex/plantdisease
    * https://github.com/spMohanty/PlantVillage-Dataset
-    
+* You can find model weights here:
+   * Model with weights : https://drive.google.com/file/d/1al0dZHeRtE0EqdEBbSaUQbTLUdEPKqJb/view?usp=sharing
+   * Only weights : https://drive.google.com/file/d/1al0dZHeRtE0EqdEBbSaUQbTLUdEPKqJb/view?usp=sharing 
 
 # Deep Dive into Concepts
 - [Disease Classifier](##DiseaseClassifier)
@@ -28,9 +30,12 @@ The whole disease classification process is divided into 2 stages as in
 
 
 # How-To-Train:
-
+- Every leaf has its own model so you can train them sperately and test them.
+- there is a main classifier model which will take time to train.
+- quick tip delete the model from the model folder to train.
 
 ## Run Model
-
+- Download weights from links given
+- place them in a folder Best_model and Best_weights
 - To run and setup the model, you’ll need at least OpenCV 3.4.2.
-- 
+- Every thing is in one file show just run all cells
