@@ -29,13 +29,8 @@ The whole disease classification process is divided into 2 stages as in
 
 # How-To-Train:
 
-<b> Check the "how_to_train" folder for detailed explanation on getting started and how to train the each of the models (explained in the next section) are trained.</b>
-
-Find it here : https://github.com/deepakHonakeri05/Leaf-Disease-Classifier/tree/master/how_to_train
 
 ## Run Model
 
 - To run and setup the model, you’ll need at least OpenCV 3.4.2.
-- Dataset structure used in the project :
-     * git clone https://github.com/deepakHonakeri05/yolo_dataset.git
-- The weights of the networks can be given on-demand due constraints set on GitHub. 
+- 
